@@ -1,0 +1,244 @@
+<Activity mc:Ignorable="sap sap2010" x:Class="Navegadores" sap2010:ExpressionActivityEditor.ExpressionActivityEditor="C#" sap:VirtualizedContainerService.HintSize="960,1155" sap2010:WorkflowViewState.IdRef="ActivityBuilder_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:mca="clr-namespace:Microsoft.CSharp.Activities;assembly=System.Activities" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=mscorlib" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:uix="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <TextExpression.NamespacesForImplementation>
+    <scg:List x:TypeArguments="x:String" Capacity="70">
+      <x:String>System.Activities</x:String>
+      <x:String>System.Activities.Statements</x:String>
+      <x:String>System.Activities.Expressions</x:String>
+      <x:String>System.Activities.Validation</x:String>
+      <x:String>System.Activities.XamlIntegration</x:String>
+      <x:String>Microsoft.VisualBasic</x:String>
+      <x:String>Microsoft.VisualBasic.Activities</x:String>
+      <x:String>System</x:String>
+      <x:String>System.Collections</x:String>
+      <x:String>System.Collections.Generic</x:String>
+      <x:String>System.Data</x:String>
+      <x:String>System.Diagnostics</x:String>
+      <x:String>System.Drawing</x:String>
+      <x:String>System.IO</x:String>
+      <x:String>System.Linq</x:String>
+      <x:String>System.Net.Mail</x:String>
+      <x:String>System.Xml</x:String>
+      <x:String>System.Text</x:String>
+      <x:String>System.Xml.Linq</x:String>
+      <x:String>UiPath.Core</x:String>
+      <x:String>UiPath.Core.Activities</x:String>
+      <x:String>System.Windows.Markup</x:String>
+      <x:String>UiPath.UIAutomationNext.Enums</x:String>
+      <x:String>UiPath.UIAutomationCore.Contracts</x:String>
+      <x:String>System.Collections.ObjectModel</x:String>
+      <x:String>UiPath.UIAutomationNext.Activities</x:String>
+      <x:String>System.Activities.DynamicUpdate</x:String>
+      <x:String>UiPath.Platform.ObjectLibrary</x:String>
+      <x:String>UiPath.Shared.Activities</x:String>
+      <x:String>System.Reflection</x:String>
+      <x:String>System.Runtime.InteropServices</x:String>
+      <x:String>System.Security</x:String>
+      <x:String>System.ComponentModel</x:String>
+      <x:String>System.Linq.Expressions</x:String>
+      <x:String>UiPath.Platform.ResourceHandling</x:String>
+      <x:String>UiPath.UIAutomationNext.Contracts</x:String>
+      <x:String>System.Runtime.Serialization</x:String>
+    </scg:List>
+  </TextExpression.NamespacesForImplementation>
+  <TextExpression.ReferencesForImplementation>
+    <scg:List x:TypeArguments="AssemblyReference" Capacity="38">
+      <AssemblyReference>Microsoft.CSharp</AssemblyReference>
+      <AssemblyReference>System</AssemblyReference>
+      <AssemblyReference>System.Core</AssemblyReference>
+      <AssemblyReference>System.Activities</AssemblyReference>
+      <AssemblyReference>System.Data</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization</AssemblyReference>
+      <AssemblyReference>System.ServiceModel</AssemblyReference>
+      <AssemblyReference>System.ServiceModel.Activities</AssemblyReference>
+      <AssemblyReference>System.Xaml</AssemblyReference>
+      <AssemblyReference>System.Activities</AssemblyReference>
+      <AssemblyReference>Microsoft.VisualBasic</AssemblyReference>
+      <AssemblyReference>mscorlib</AssemblyReference>
+      <AssemblyReference>System.Data</AssemblyReference>
+      <AssemblyReference>System</AssemblyReference>
+      <AssemblyReference>System.Drawing</AssemblyReference>
+      <AssemblyReference>System.Core</AssemblyReference>
+      <AssemblyReference>System.Xml</AssemblyReference>
+      <AssemblyReference>System.Xml.Linq</AssemblyReference>
+      <AssemblyReference>PresentationFramework</AssemblyReference>
+      <AssemblyReference>WindowsBase</AssemblyReference>
+      <AssemblyReference>PresentationCore</AssemblyReference>
+      <AssemblyReference>System.Xaml</AssemblyReference>
+      <AssemblyReference>UiPath.System.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.UiAutomation.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationCore</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Platform</AssemblyReference>
+      <AssemblyReference>UiPath.Excel.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Mail.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.OCR.Activities</AssemblyReference>
+      <AssemblyReference>System.Reflection.Metadata</AssemblyReference>
+      <AssemblyReference>System.Memory</AssemblyReference>
+      <AssemblyReference>Microsoft.Bcl.AsyncInterfaces</AssemblyReference>
+      <AssemblyReference>System.ValueTuple</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.Composition</AssemblyReference>
+      <AssemblyReference>NPOI</AssemblyReference>
+      <AssemblyReference>System.Runtime.WindowsRuntime</AssemblyReference>
+    </scg:List>
+  </TextExpression.ReferencesForImplementation>
+  <Sequence sap:VirtualizedContainerService.HintSize="478,1090" sap2010:WorkflowViewState.IdRef="Sequence_4">
+    <sap:WorkflowViewStateService.ViewState>
+      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+      </scg:Dictionary>
+    </sap:WorkflowViewStateService.ViewState>
+    <ui:CommentOut DisplayName="Comment Out" sap:VirtualizedContainerService.HintSize="436,236" sap2010:WorkflowViewState.IdRef="CommentOut_1">
+      <ui:CommentOut.Body>
+        <Sequence DisplayName="Ignored Activities" sap:VirtualizedContainerService.HintSize="242,158" sap2010:WorkflowViewState.IdRef="Sequence_3">
+          <sap:WorkflowViewStateService.ViewState>
+            <scg:Dictionary x:TypeArguments="x:String, x:Object">
+              <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+            </scg:Dictionary>
+          </sap:WorkflowViewStateService.ViewState>
+          <Sequence DisplayName="Navegadores" sap:VirtualizedContainerService.HintSize="200,66" sap2010:WorkflowViewState.IdRef="Sequence_1">
+            <Sequence.Variables>
+              <Variable x:TypeArguments="x:String" Name="strUser">
+                <Variable.Default>
+                  <Literal x:TypeArguments="x:String">tomsmith</Literal>
+                </Variable.Default>
+              </Variable>
+              <Variable x:TypeArguments="x:String" Name="strPass">
+                <Variable.Default>
+                  <Literal x:TypeArguments="x:String">SuperSecretPassword!</Literal>
+                </Variable.Default>
+              </Variable>
+              <Variable x:TypeArguments="x:String" Name="strComent">
+                <Variable.Default>
+                  <Literal x:TypeArguments="x:String">Comentario , saludos y gracias</Literal>
+                </Variable.Default>
+              </Variable>
+            </Sequence.Variables>
+            <sap:WorkflowViewStateService.ViewState>
+              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                <x:Boolean x:Key="IsPinned">False</x:Boolean>
+              </scg:Dictionary>
+            </sap:WorkflowViewStateService.ViewState>
+            <uix:NApplicationCard WebDriverMode="{x:Null}" AttachMode="ByInstance" DisplayName="Use Browser Edge: The Internet" sap:VirtualizedContainerService.HintSize="434,1289" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" InteractionMode="DebuggerApi" ScopeGuid="13ead8c8-a8b7-477f-aa9f-a9872b0bc758" Version="V2">
+              <uix:NApplicationCard.Body>
+                <ActivityAction x:TypeArguments="x:Object">
+                  <ActivityAction.Argument>
+                    <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
+                  </ActivityAction.Argument>
+                  <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="376,1033" sap2010:WorkflowViewState.IdRef="Sequence_2">
+                    <Sequence.Variables>
+                      <Variable x:TypeArguments="ui:Image" Name="imgCaptura" />
+                    </Sequence.Variables>
+                    <sap:WorkflowViewStateService.ViewState>
+                      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                      </scg:Dictionary>
+                    </sap:WorkflowViewStateService.ViewState>
+                    <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Type Into 'Username'" EmptyFieldMode="SingleLine" sap:VirtualizedContainerService.HintSize="334,216" sap2010:WorkflowViewState.IdRef="NTypeInto_1" ScopeIdentifier="13ead8c8-a8b7-477f-aa9f-a9872b0bc758" Version="V1">
+                      <uix:NTypeInto.Target>
+                        <uix:TargetAnchorable BrowserURL="https://the-internet.herokuapp.com/login" DesignTimeRectangle="40, 314, 470, 32" ElementType="InputBox" FriendlyName="'INPUT username'" FullSelectorArgument="&lt;webctrl tag='INPUT' /&gt;" FuzzySelectorArgument="&lt;webctrl tag='INPUT' type='text' class='' aaname='Username' /&gt;" Guid="3b76ab18-c92c-4d0f-a6ce-88d91eddd51c" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAdoAAAAkCAYAAAAuC/tyAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAEHSURBVHhe7dUxisNAFETBvf/ZdBNJiYJRMmLMX7DBgTAD6qwKXtZ5/w0AIMbRAkDQ52iXZZEkSQ/19nW067qObdvGvu+SJGmy+tD60tujPY5jtNbGeZ6SJGmy+tD60tujrUHvfVzXJUmSJqsPrS+9Pdp64xoCAPPqQ+tLHS0ABDhaAAhytAAQ5GgBIMjRAkCQowWAIEcLAEGOFgCCHC0ABDlaAAhytAAQ5GgBIMjRAkCQowWAIEcLAEGOFgCCHC0ABDlaAAhytAAQ5GgBIMjRAkCQowWAIEcLAEGOFgCCHC0ABDlaAAj6ebSttdF7/x9KkqS56kPrS2+PVpIkPdPb52gBgKeN8QJMFKJvUgz22AAAAABJRU5ErkJggg==" InformativeScreenshot="b9ff80e03a1f696da2da9d7fc2475cd4.png" IsResponsive="True" ScopeSelectorArgument="&lt;html app='msedge.exe' title='The Internet' /&gt;" SearchSteps="FuzzySelector, Image" Visibility="Interactive">
+                          <uix:TargetAnchorable.Anchors>
+                            <scg:List x:TypeArguments="uix:ITarget" Capacity="4">
+                              <uix:Target DesignTimeRectangle="40, 298, 470, 14" ElementType="Text" FriendlyName="'Username'" FullSelectorArgument="&lt;webctrl tag='LABEL' /&gt;" FuzzySelectorArgument="&lt;webctrl tag='LABEL' type='' class='' aaname='Username' check:innerText='Username' /&gt;" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAdoAAAASCAYAAAD8KB/CAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAIISURBVHhe7do7TsMwHIBxrsDEXThBq5AdjsGjTLBwBUTpChLsQHMA2BkoM0hsRZ2Z/8S1ndhO+sjD2/eTOiR2nXT66rQ7AgAAoiG0AABERGgBAIiI0AIAEJET2rm8Hg/l6sMcut7HkqS38mYOAQDAdggtAAARtQrt39OJpGm6fB2kI7lbmIElvY4d3x9N5ceMiMzkYXgj2ct5Mfb1fCZ7k8x7z2H2a+Yr/nrh+Pf1UI6yWTHH3o86Xzdf3cPjoBzbnczMeQAA+tc8tOHu1jvWa4QhLGOmI+fGzUa7uG6+XhlvvV443427Wj889uLq3Z++fvkZq/cLAECfuofWlY/5O1gl38UOTkwIw9DpcIa73nCOZz6Vy+TUC6u3K63cX3l9da3KDjZf7yIZ138eAAA6avHoWM+zj17DaNrz7qvccbYPrfsoONzBhqGtPK42oXXXcF8rvzgAANBRpz9D2XDZ8FWjGWoeWnuNYs4WO9p1oa3saAEAiMgJrQ5R3e+V6wPq/M65IsilpqF1HzsbHUK7+YsAAAD98kKrIuU+ltV0+Or/XJTzwqejG4avnN88tP58fdz20bF9v/tlgvgCAGLyQ6ssw5l4v2G6YVRU3FaP65jZMX+HG4ZzU2hzeTjtWiqw94tPL5bNQpsLPh+RBQDEVA0tAADoDaEFACAiQgsAQESEFgCAaET+AdazRaB0qIIOAAAAAElFTkSuQmCC" SearchSteps="FuzzySelector, Image" />
+                            </scg:List>
+                          </uix:TargetAnchorable.Anchors>
+                        </uix:TargetAnchorable>
+                      </uix:NTypeInto.Target>
+                      <uix:NTypeInto.Text>
+                        <InArgument x:TypeArguments="x:String">
+                          <mca:CSharpValue x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpValue`1_1">strUser</mca:CSharpValue>
+                        </InArgument>
+                      </uix:NTypeInto.Text>
+                    </uix:NTypeInto>
+                    <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Type Into 'Password'" EmptyFieldMode="SingleLine" sap:VirtualizedContainerService.HintSize="334,216" sap2010:WorkflowViewState.IdRef="NTypeInto_2" ScopeIdentifier="13ead8c8-a8b7-477f-aa9f-a9872b0bc758" Version="V1">
+                      <uix:NTypeInto.Target>
+                        <uix:TargetAnchorable BrowserURL="https://the-internet.herokuapp.com/login" DesignTimeRectangle="40, 377, 470, 32" ElementType="InputBoxPassword" FriendlyName="'INPUT password'" FullSelectorArgument="&lt;webctrl tag='INPUT' type='password' /&gt;" FuzzySelectorArgument="&lt;webctrl tag='INPUT' type='password' class='' aaname='Password' /&gt;" Guid="8acd86e4-f0c3-4f9d-8882-545cf791c754" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAdoAAAAkCAYAAAAuC/tyAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAEHSURBVHhe7dUxisNAFETBvf/ZdBNJiYJRMmLMX7DBgTAD6qwKXtZ5/w0AIMbRAkDQ52iXZZEkSQ/19nW067qObdvGvu+SJGmy+tD60tujPY5jtNbGeZ6SJGmy+tD60tujrUHvfVzXJUmSJqsPrS+9Pdp64xoCAPPqQ+tLHS0ABDhaAAhytAAQ5GgBIMjRAkCQowWAIEcLAEGOFgCCHC0ABDlaAAhytAAQ5GgBIMjRAkCQowWAIEcLAEGOFgCCHC0ABDlaAAhytAAQ5GgBIMjRAkCQowWAIEcLAEGOFgCCHC0ABDlaAAj6ebSttdF7/x9KkqS56kPrS2+PVpIkPdPb52gBgKeN8QJMFKJvUgz22AAAAABJRU5ErkJggg==" InformativeScreenshot="3d97237e12b129c2b12c68db4697c914.png" ScopeSelectorArgument="&lt;html app='msedge.exe' title='The Internet' /&gt;" SearchSteps="FuzzySelector, Image" Visibility="Interactive">
+                          <uix:TargetAnchorable.Anchors>
+                            <scg:List x:TypeArguments="uix:ITarget" Capacity="4">
+                              <uix:Target DesignTimeRectangle="40, 361, 470, 14" ElementType="Text" FriendlyName="'Password'" FullSelectorArgument="&lt;webctrl aaname='Password' tag='LABEL' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname='Password' tag='LABEL' type='' class='' check:innerText='Password' /&gt;" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAdoAAAASCAYAAAD8KB/CAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAIuSURBVHhe7dqxTlsxFIDhvkKnvgtPQHS5nfsIXaHABEtfoSLQESS6I8jGAjsDdK/UjYi5s+sT+zjHjpOSCl8J9H8SUn1tObfTLzt55wAAQDOEFgCAhggtAAANEVoAABoyoX10N9sj1/f9wt+nyTSueRt+fRu59ycPcQQAQDsLof16H4fJg/uxOXpTsSW0AIChPCO0zv252DFhWjz52gjLWn2+1e+506c44dXnwn7lHht7V+53HEvsz0dH7jaO7D5df5ye67rJ5f5sLu3xeOUOuy6t/z7+SGgBAINYM7RhjY2UzKVo3o3z8Nnxirn5/iJ8RrlW52WtncvH4fSdRTRGNv2//F4S3GwNAACN/Du0ZahKs/kv9dBaq+b8HgfdOMVSTqVy6tTPlKve8O8Q0vxd7Il4cV5CnJ+OuToGAAznv38MJbHS+fIaWJ/Xglif83Hd3EmxlghKIDWe6drYRt2Qd1kW2lpU8xM0AADtPOvq2NLA5t9/1uMn68rvaUVtTmOZAuv33d29dNPpxH0+ji9FaAEAr8yaoTUnT7UkfkHYM0SwVMz5k+yHk4l/pvvPf9g0fyeujgEAr8vaoc1DFsZLfwxlI7xqLo07sya8T/m9roTTPsvHtRAXz/x7yGma0AIAhrD21bGGSq9+z55+zkKmJ1O9FtY/u9+qOf18G8DaaVTIc90jD3EttF6MuKyX/a6PtggtAGAQJrQAAOClEVoAABoitAAANERoAQBoxrm/VmpOJs/1PGEAAAAASUVORK5CYII=" SearchSteps="FuzzySelector, Image" />
+                            </scg:List>
+                          </uix:TargetAnchorable.Anchors>
+                        </uix:TargetAnchorable>
+                      </uix:NTypeInto.Target>
+                      <uix:NTypeInto.Text>
+                        <InArgument x:TypeArguments="x:String">
+                          <mca:CSharpValue x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpValue`1_2">strPass</mca:CSharpValue>
+                        </InArgument>
+                      </uix:NTypeInto.Text>
+                    </uix:NTypeInto>
+                    <uix:NClick ClickType="Single" DisplayName="Click 'Login'" sap:VirtualizedContainerService.HintSize="334,156" sap2010:WorkflowViewState.IdRef="NClick_1" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="13ead8c8-a8b7-477f-aa9f-a9872b0bc758" Version="V1">
+                      <uix:NClick.Target>
+                        <uix:TargetAnchorable BrowserURL="https://the-internet.herokuapp.com/login" DesignTimeRectangle="65, 438, 112, 32" FriendlyName="'Login'" FullSelectorArgument="&lt;webctrl tag='I' /&gt;" FuzzySelectorArgument="&lt;webctrl tag='I' type='' class='fa fa-2x fa-sign-in' aaname=' Login' check:innerText='Login' /&gt;" Guid="d989a623-89af-42c1-9f4c-eb5d00a4f809" ImageBase64="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" InformativeScreenshot="3dcb87890a7a9c6e8a485251b45d2b2c.png" ScopeSelectorArgument="&lt;html app='msedge.exe' title='The Internet' /&gt;" SearchSteps="FuzzySelector, Image" Visibility="Interactive" />
+                      </uix:NClick.Target>
+                    </uix:NClick>
+                    <uix:NTakeScreenshot DisplayName="Take Screenshot 'You logged'" FileName="C:\\Users\\User\\Desktop\\Navegador\\screenshot.png" FileNameMode="None" sap:VirtualizedContainerService.HintSize="334,231" sap2010:WorkflowViewState.IdRef="NTakeScreenshot_1" ScopeIdentifier="13ead8c8-a8b7-477f-aa9f-a9872b0bc758" Version="V1">
+                      <uix:NTakeScreenshot.OutImage>
+                        <OutArgument x:TypeArguments="ui:Image">
+                          <mca:CSharpReference x:TypeArguments="ui:Image" sap2010:WorkflowViewState.IdRef="CSharpReference`1_1">imgCaptura</mca:CSharpReference>
+                        </OutArgument>
+                      </uix:NTakeScreenshot.OutImage>
+                      <uix:NTakeScreenshot.Target>
+                        <uix:TargetAnchorable BrowserURL="https://the-internet.herokuapp.com/secure" DesignTimeRectangle="8, 80, 1034, 328" FriendlyName="'You logged'" FullSelectorArgument="&lt;webctrl tag='BODY' /&gt;" FuzzySelectorArgument="&lt;webctrl tag='BODY' type='' class='' aaname='                    ' check:innerText='You logged into a secure area!&amp;#xD;&amp;#xA;×&amp;#xD;&amp;#xA;Secure Area&amp;#xD;&amp;#xA;Welcome to the Secure Area. When you are done click' /&gt;" Guid="c0a89b31-c802-4390-a5d6-6ad82c8810f3" ImageBase64="" InformativeScreenshot="8ea20e7b84dbac746b56b4f8f747a265.png" ScopeSelectorArgument="&lt;html app='msedge.exe' title='The Internet' /&gt;" SearchSteps="FuzzySelector" Visibility="Interactive" />
+                      </uix:NTakeScreenshot.Target>
+                    </uix:NTakeScreenshot>
+                  </Sequence>
+                </ActivityAction>
+              </uix:NApplicationCard.Body>
+              <uix:NApplicationCard.TargetApp>
+                <uix:TargetApp Area="10, 10, 1050, 660" BrowserType="Edge" IconBase64="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" InformativeScreenshot="3450d43fa3c8926f657cbe9048dbea84.png" Selector="&lt;html app='msedge.exe' title='The Internet' /&gt;" Url="https://the-internet.herokuapp.com/login" />
+              </uix:NApplicationCard.TargetApp>
+              <sap:WorkflowViewStateService.ViewState>
+                <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                  <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                  <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                </scg:Dictionary>
+              </sap:WorkflowViewStateService.ViewState>
+            </uix:NApplicationCard>
+          </Sequence>
+        </Sequence>
+      </ui:CommentOut.Body>
+    </ui:CommentOut>
+    <uix:NApplicationCard WebDriverMode="{x:Null}" AttachMode="ByInstance" DisplayName="Use Browser Edge: UiPath REFramework Live Use Case - Get Started - YouTube" sap:VirtualizedContainerService.HintSize="436,722" sap2010:WorkflowViewState.IdRef="NApplicationCard_2" InteractionMode="DebuggerApi" ScopeGuid="ce1d6c15-0eeb-4419-bc4c-39d72dbbfbb2" Version="V2">
+      <uix:NApplicationCard.Body>
+        <ActivityAction x:TypeArguments="x:Object">
+          <ActivityAction.Argument>
+            <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
+          </ActivityAction.Argument>
+          <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="376,506" sap2010:WorkflowViewState.IdRef="Sequence_5">
+            <Sequence.Variables>
+              <Variable x:TypeArguments="x:String" Name="strComenta">
+                <Variable.Default>
+                  <Literal x:TypeArguments="x:String">Hola, saludos, gracias.</Literal>
+                </Variable.Default>
+              </Variable>
+            </Sequence.Variables>
+            <sap:WorkflowViewStateService.ViewState>
+              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+              </scg:Dictionary>
+            </sap:WorkflowViewStateService.ViewState>
+            <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Type Into 'Agrega un comentario…'" EmptyFieldMode="SingleLine" sap:VirtualizedContainerService.HintSize="334,216" sap2010:WorkflowViewState.IdRef="NTypeInto_3" ScopeIdentifier="ce1d6c15-0eeb-4419-bc4c-39d72dbbfbb2" Version="V1">
+              <uix:NTypeInto.Target>
+                <uix:TargetAnchorable BrowserURL="https://www.youtube.com/watch?v=7UN1xRN24xY" DesignTimeRectangle="88, 428, 147, 17" FriendlyName="'Agrega un comentario…'" FullSelectorArgument="&lt;webctrl aria-role='textbox' tag='YT-FORMATTED-STRING' /&gt;" FuzzySelectorArgument="&lt;webctrl aria-role='textbox' tag='YT-FORMATTED-STRING' type='' class='style-scope ytd-comment-simplebox-renderer' aaname='Agrega un comentario…' check:innerText='Agrega un comentario…' /&gt;" Guid="dba9fcdf-c64a-4383-a535-e35759b2a5d4" ImageBase64="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" InformativeScreenshot="c4c6964d79837d98685badd18229c81c.png" ScopeSelectorArgument="&lt;html app='msedge.exe' title='UiPath REFramework Live Use Case - Get Started - YouTube' /&gt;" SearchSteps="FuzzySelector, Image" Visibility="Interactive" />
+              </uix:NTypeInto.Target>
+              <uix:NTypeInto.Text>
+                <InArgument x:TypeArguments="x:String">
+                  <mca:CSharpValue x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpValue`1_3">strComenta</mca:CSharpValue>
+                </InArgument>
+              </uix:NTypeInto.Text>
+            </uix:NTypeInto>
+            <uix:NClick ClickType="Single" DisplayName="Click 'YT-ICON chevron'" sap:VirtualizedContainerService.HintSize="334,156" sap2010:WorkflowViewState.IdRef="NClick_2" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="ce1d6c15-0eeb-4419-bc4c-39d72dbbfbb2" Version="V1">
+              <uix:NClick.Target>
+                <uix:TargetAnchorable BrowserURL="https://www.youtube.com/watch?v=7UN1xRN24xY" DesignTimeRectangle="643, 189, 24, 24" FriendlyName="'YT-ICON chevron'" FullSelectorArgument="&lt;webctrl id='chevron' tag='YT-ICON' /&gt;" FuzzySelectorArgument="&lt;webctrl id='chevron' tag='YT-ICON' type='' class='style-scope ytd-comments-entry-point-header-renderer' aaname='' /&gt;" Guid="7490f14d-6dd7-4aa1-b106-e03595b30b98" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAABwAAAAcCAYAAAByDd+UAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAACBSURBVEhL7dSxDUAhCEXRPwYTuIETuIGLODsT8PN6CnkQK4rbSHFCNH4iYi9rsLwGywuBc073PNI1uPc2VbW1lju/LbThOSeNhu8wi1KPJoNSIGJRGkQMmgIBAQTszb1okMEQBbIYCoMZDIXALIauwTFGGkOhDZ9+3lU1WF6DxYn9l8Maeey1iz0AAAAASUVORK5CYII=" InformativeScreenshot="76fd1143cae91387fc9027249786dac2.png" ScopeSelectorArgument="&lt;html app='msedge.exe' title='UiPath REFramework Live Use Case - Get Started - YouTube' /&gt;" SearchSteps="FuzzySelector, Image" Visibility="Interactive" />
+              </uix:NClick.Target>
+            </uix:NClick>
+          </Sequence>
+        </ActivityAction>
+      </uix:NApplicationCard.Body>
+      <uix:NApplicationCard.TargetApp>
+        <uix:TargetApp Area="10, 10, 1050, 660" BrowserType="Edge" IconBase64="iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAZdEVYdFNvZnR3YXJlAEFkb2JlIEltYWdlUmVhZHlxyWU8AAACp0lEQVRYR8XXz0tUURQH8K8/8hZiYfmDmqgLuQhrE+1diLRxldAfEIQQBBJIIkHQKqpFG0FIEVsFQlGJRokEgqFgmo7m2GCvH8yEjDkkIaLl6XsfDoGc12g4rwufWZxz7j2H92OYgYj8V2owTGowTGowTFhdXfWt0Dda2JTe9J3kjzwq+It88mvXKXPGEmXOTdEPyvSFtRYROk6XrD3Tae3lfmvvxqztnrf26WdrBzesHRZr39AkzdI7hYtP0ziNrlg7xP0v6XHU2q4+a+/w7CtN1tactjbvMPu53v46CBQ/Abo3gF/+XcmxceDVSeCY37wQyBtgc60wl2LAUAlQhHPAWQZ+bi0Iw3mgFjeBJi0ZhnvAdTwE2rVkGHqBB3gNPNOSgcrLRVpbRUpL9fwOsPcA4sCwlgzkBlhfF4nHRRoa9Jpt+gSMg09jVEsGKisTSaX4Jba5enpEqqr02iySwJwbYE5LBto6gFvptEhzs0hRkb4nQAL4whEQ05KBtAEya2JCpL5e36f4CiTxYTeuQGa5K9HYqO9TLLgBduUWuNXRIRKJ6HsC8BYk3AAzWjLQ1gHGxkTq6vTaLDjAPN4DI1oykBtgbU1keVmkpUXEGL1uG/gWTGEM6NeSgSorRbq6RKqr9fwOsPcQeoBOLRkoP1+P/4NBsP1t4JqWDEM7cAsNQI2WDEMj2L4Y2DMJvNAKcolfQjNHAf4m4ToFRKb5QGiFucDXb7rWb8tljHEfqDCm8KoxFx4Z0zZiTF/CmJGkMbOLxnzkq5akFKVpOYslcrVJt9edwbNGeebzXmPu3zDm4gljSlxPv7fneb44vaUpilGCkp5XsOh5+8TzDtAhqqQjWVSQq93PvXvdGe4sd2aUXI85yvTlNdH/MIRFDYZJDYZJDYZH8BtrTS5QuubtDwAAAABJRU5ErkJggg==" InformativeScreenshot="9f85e809efd23bf26f6dc8cc89366e3b.png" Selector="&lt;html app='msedge.exe' title='UiPath REFramework Live Use Case - Get Started - YouTube' /&gt;" Url="https://www.youtube.com/watch?v=7UN1xRN24xY" />
+      </uix:NApplicationCard.TargetApp>
+    </uix:NApplicationCard>
+  </Sequence>
+</Activity>
